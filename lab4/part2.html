@@ -1,0 +1,33 @@
+
+<html>
+<head>
+    <title>Part2</title>
+    <link rel="stylesheet" href="styles2.css">
+    
+</head>
+<body>  
+    <div class="form">     
+        <form onsubmit="myFunction()">
+            <h1>Form</h1>
+             <div class="grupo">              
+                <input id="email" type="email" name=" email " required><span class="barra"></span>
+                <label for="email">Enter E-mail:</label>
+             </div> 
+             <div class="grupo">
+                <input id="pass" type="password" name=" pass " required><span class="barra"></span>
+                <label for="pass">Password</label>
+             </div>
+             <div>  
+                 <button type="submit">Login</button>
+             </div>         
+        </form>
+
+        <script>
+        function myFunction() {
+            console.log(document.getElementById("email").value);
+            console.log(document.getElementById("pass").value);
+        }
+        </script>
+    </div
+</body>
+</html>
