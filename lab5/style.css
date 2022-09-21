@@ -1,0 +1,13 @@
+.valores{
+    color:rgb(7, 133, 161);
+}
+h1,h2{
+      text-align: center;
+}
+ul {
+  list-style-type: none;
+  list-style-position: outside;
+  font-weight: bold;
+  margin: 0;
+  padding: 30px; 
+}
