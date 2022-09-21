@@ -89,7 +89,7 @@ input:valid~label{
     left: 0;
 }
 input:focus~.barra::before{
-    width: 100%;
+    width: 130%;
 }
 button{
     font-family: 'Roboto';
@@ -103,7 +103,7 @@ button{
     display: block;
     width: 80%;
     margin: 10px auto;
-    color: #fff;
+    color: rgb(55, 51, 51);
     height: 40px;
     font-size: 16px;
     cursor: pointer;   
