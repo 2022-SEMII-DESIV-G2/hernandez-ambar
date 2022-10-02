@@ -20,6 +20,7 @@ body {
     
 }
 h1{
+   font-family: Georgia;
    color: #375e97; 
    position: relative;
    left: 20px; 
@@ -29,9 +30,11 @@ h1{
     width: 95%;  
 }
 .body{
+    font-family: Arial;
     padding: 3%; 
 }
 h3{
+    font-family: Arial;
     color: #999999;
 }
 span{
