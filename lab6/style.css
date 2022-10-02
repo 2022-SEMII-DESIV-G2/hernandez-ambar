@@ -1,0 +1,50 @@
+body {
+    background: #1488CC;  
+    background: linear-gradient(to right, #2B32B2, #1488CC); 
+    background-size: 300%;
+    animation: fanimado 3s infinite;  
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.wireframe{
+    background:white;
+    padding: 30px 0; 
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50vw;
+    
+}
+h1{
+   color: #375e97; 
+   position: relative;
+   left: 20px; 
+}
+#barra{
+    border-color:#375e97;
+    width: 95%;  
+}
+.body{
+    padding: 3%; 
+}
+h3{
+    color: #999999;
+}
+span{
+    color:red;
+}
+@keyframes fanimado{
+    0%{
+      background-position: 0% 50%;
+    }
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+  }
