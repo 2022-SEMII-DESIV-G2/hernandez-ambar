@@ -6,7 +6,7 @@ Instruciones
 **I parte**
 Implementar el siguiente diseño:
 
-
+https://github.com/2022-SEMII-DESIV-G2/hernandez-ambar/blob/master/lab6/dise%C3%B1olab6.png
 
 **A tomar en cuenta**
 - Existe un borde alrededor del diseño.
