@@ -3,6 +3,7 @@ Instruciones
 **Objetivos:**
 - Implementar un mockup en HTML y CSS.
 - Realizar un Pull Request en Github con los cambios de este laboratorio.
+
 **I parte**
 Implementar el siguiente diseño:
 
