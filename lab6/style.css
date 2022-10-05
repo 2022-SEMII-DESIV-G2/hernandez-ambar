@@ -32,10 +32,10 @@ h1{
 }
 .body{
     font-family: Arial;
-    padding: 10px;
-    margin: -15px 12px 5px;
+
+    padding: 3%; 
 }
-h2{
+h3{
     font-family: Arial;
     color: #999999;
 }
