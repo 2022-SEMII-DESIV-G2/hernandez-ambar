@@ -1,8 +1,12 @@
 body {
-    background: #1488CC;  
-    background: linear-gradient(to right, #2B32B2, #1488CC); 
-    background-size: 300%;
-    animation: fanimado 3s infinite;  
+     
+    background-image: linear-gradient(to right,
+     #E9E4F0 0,
+         #D3CCE3 25%,
+            #cfc4e9 75%,
+                 #d1c5ed 80%); 
+    background-size: 400%;
+    animation: fanimado 5s infinite;  
     height: 900px;
     display: flex;
     justify-content: center;
@@ -22,24 +26,26 @@ body {
 h1{
    font-family: Georgia;
    color: #375e97; 
-   position: relative;
-   left: 20px; 
-}
-#barra{
-    border-color:#375e97;
-    width: 95%;  
+   border-bottom: 1px solid #375e97;
+   padding: 0 1px 5px;
+   margin:20px;
 }
 .body{
     font-family: Arial;
-    padding: 3%; 
+    padding: 10px;
+    margin: -15px 12px 5px;
 }
-h3{
+h2{
     font-family: Arial;
     color: #999999;
 }
-span{
-    color:red;
+.link{
+    color:#fb6542;
 }
+.link:active{
+    color:#ded00ce9;
+}
+
 @keyframes fanimado{
     0%{
       background-position: 0% 50%;
