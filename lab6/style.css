@@ -32,8 +32,8 @@ h1{
 }
 .body{
     font-family: Arial;
-
-    padding: 3%; 
+    padding: 10px;
+    margin: -15px 12px 5px ;
 }
 h3{
     font-family: Arial;
