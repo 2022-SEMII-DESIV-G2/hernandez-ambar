@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Laboratorio 8</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="row">
+        <!-- Link a GitHub -->
+        <div class="github">
+            <a href="http://"></a>
+        </div>
+        <div class="form-container">
+                <form id="form">
+                    <h1>Contador de Letras</h1>
+                    <!-- label e input de la palabra -->
+                    <div class="input-container">
+                        <label>Cadena de texto</label>
+                        <input id="word" type="text" required>      
+                    </div>
+                    <div class="buttons">             
+                        <button type="button" id="btn-clear" onclick="limpiar()">Limpiar</button>
+                        <button type="submit" id="btn-count" onclick="contar()">Contar</button> 
+                    </div>
+                </form>
+            </div>
+            <div class="ans">
+                <p id="respuesta"></p>   
+            </div>
+        </section>
+        <script src="contador.js"></script>
+</body>
+
+</html>

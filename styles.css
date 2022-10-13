@@ -1,0 +1,103 @@
+body {
+    height: 100vh;
+}
+.row{
+    margin: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    border: 1px solid#023361;
+    background: #023361;
+    padding: 20px 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 35vw; 
+    height: 340px;    
+}
+
+ h1 {
+    height: 48px;
+    font-family: 'Montserrat';
+    color:white;
+    text-align: center;
+    padding: 30px;   
+}
+
+form {
+    padding: 65px 60px;
+    margin: 10px; 
+    box-sizing: border-box;
+}
+
+
+input {   
+    font-family:'Montserrat' ;
+    font-weight: bold;
+    font-size: 16px;
+    color:black;
+    background: white;
+    display: block;
+    width: 100%;
+    height: 46px;
+    border-radius: 5px;
+    border: none;
+    outline: none; 
+} 
+
+label {  
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-weight: bold;
+    bottom: 40px;
+    color: white;
+    pointer-events: none;
+    padding-top: 20px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+/* boton contar */
+button[type="submit"]{  
+    width: 142px;
+    height: 41px;
+    background:#0085FF;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    line-height: 20px;
+    cursor: pointer;
+}
+/* boton limpiar */
+ button[type="button"] {
+    width: 142px;
+    height: 41px;
+    background:#FF0000;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    line-height: 20px;
+    cursor: pointer;
+    visibility:hidden;
+} 
+.ans{
+    font-family: 'Montserrat';  
+    /* background-color: bisque; */
+    padding: 10px; 
+    min-height: 20px;
+    width: 35vw;
+    
+}
+
