@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.isaquinn.AppTest" time="0.53" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/workspaces/ambar/OneDrive/Escritorio/Semestral-DevContainer/prysemestral/target/test-classes:/workspaces/ambar/OneDrive/Escritorio/Semestral-DevContainer/prysemestral/target/classes:/home/vscode/.m2/repository/org/json/json/20220924/json-20220924.jar:/home/vscode/.m2/repository/com/sparkjava/spark-core/2.9.4/spark-core-2.9.4.jar:/home/vscode/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/home/vscode/.m2/repository/org/eclipse/jetty/jetty-server/9.4.48.v20220622/jetty-server-9.4.48.v20220622.jar:/home/vscode/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/vscode/.m2/repository/org/eclipse/jetty/jetty-http/9.4.48.v20220622/jetty-http-9.4.48.v20220622.jar:/home/vscode/.m2/repository/org/eclipse/jetty/jetty-util/9.4.48.v20220622/jetty-util-9.4.48.v20220622.jar:/home/vscode/.m2/repository/org/eclipse/jetty/jetty-io/9.4.48.v20220622/jetty-io-9.4.48.v20220622.jar:/home/vscode/.m2/repository/org/eclipse/jetty/jetty-webapp/9.4.48.v20220622/jetty-webapp-9.4.48.v20220622.jar:/home/vscode/.m2/repository/org/eclipse/jetty/jetty-xml/9.4.48.v20220622/jetty-xml-9.4.48.v20220622.jar:/home/vscode/.m2/repository/org/eclipse/jetty/jetty-servlet/9.4.48.v20220622/jetty-servlet-9.4.48.v20220622.jar:/home/vscode/.m2/repository/org/eclipse/jetty/jetty-security/9.4.48.v20220622/jetty-security-9.4.48.v20220622.jar:/home/vscode/.m2/repository/org/eclipse/jetty/jetty-util-ajax/9.4.48.v20220622/jetty-util-ajax-9.4.48.v20220622.jar:/home/vscode/.m2/repository/org/eclipse/jetty/websocket/websocket-server/9.4.48.v20220622/websocket-server-9.4.48.v20220622.jar:/home/vscode/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.4.48.v20220622/websocket-common-9.4.48.v20220622.jar:/home/vscode/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.4.48.v20220622/websocket-client-9.4.48.v20220622.jar:/home/vscode/.m2/repository/org/eclipse/jetty/jetty-client/9.4.48.v20220622/jetty-client-9.4.48.v20220622.jar:/home/vscode/.m2/repository/org/eclipse/jetty/websocket/websocket-servlet/9.4.48.v20220622/websocket-servlet-9.4.48.v20220622.jar:/home/vscode/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.4.48.v20220622/websocket-api-9.4.48.v20220622.jar:/home/vscode/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/vscode/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.vm.vendor" value="Temurin"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Linux"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/local/sdkman/candidates/java/8.0.352-tem/jre/lib/amd64"/>
+    <property name="sun.java.command" value="/workspaces/ambar/OneDrive/Escritorio/Semestral-DevContainer/prysemestral/target/surefire/surefirebooter6660314663909425477.jar /workspaces/ambar/OneDrive/Escritorio/Semestral-DevContainer/prysemestral/target/surefire 2022-12-06T19-56-45_089-jvmRun1 surefire2310797292680277791tmp surefire_04447627552044487886tmp"/>
+    <property name="surefire.test.class.path" value="/workspaces/ambar/OneDrive/Escritorio/Semestral-DevContainer/prysemestral/target/test-classes:/workspaces/ambar/OneDrive/Escritorio/Semestral-DevContainer/prysemestral/target/classes:/home/vscode/.m2/repository/org/json/json/20220924/json-20220924.jar:/home/vscode/.m2/repository/com/sparkjava/spark-core/2.9.4/spark-core-2.9.4.jar:/home/vscode/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/home/vscode/.m2/repository/org/eclipse/jetty/jetty-server/9.4.48.v20220622/jetty-server-9.4.48.v20220622.jar:/home/vscode/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/vscode/.m2/repository/org/eclipse/jetty/jetty-http/9.4.48.v20220622/jetty-http-9.4.48.v20220622.jar:/home/vscode/.m2/repository/org/eclipse/jetty/jetty-util/9.4.48.v20220622/jetty-util-9.4.48.v20220622.jar:/home/vscode/.m2/repository/org/eclipse/jetty/jetty-io/9.4.48.v20220622/jetty-io-9.4.48.v20220622.jar:/home/vscode/.m2/repository/org/eclipse/jetty/jetty-webapp/9.4.48.v20220622/jetty-webapp-9.4.48.v20220622.jar:/home/vscode/.m2/repository/org/eclipse/jetty/jetty-xml/9.4.48.v20220622/jetty-xml-9.4.48.v20220622.jar:/home/vscode/.m2/repository/org/eclipse/jetty/jetty-servlet/9.4.48.v20220622/jetty-servlet-9.4.48.v20220622.jar:/home/vscode/.m2/repository/org/eclipse/jetty/jetty-security/9.4.48.v20220622/jetty-security-9.4.48.v20220622.jar:/home/vscode/.m2/repository/org/eclipse/jetty/jetty-util-ajax/9.4.48.v20220622/jetty-util-ajax-9.4.48.v20220622.jar:/home/vscode/.m2/repository/org/eclipse/jetty/websocket/websocket-server/9.4.48.v20220622/websocket-server-9.4.48.v20220622.jar:/home/vscode/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.4.48.v20220622/websocket-common-9.4.48.v20220622.jar:/home/vscode/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.4.48.v20220622/websocket-client-9.4.48.v20220622.jar:/home/vscode/.m2/repository/org/eclipse/jetty/jetty-client/9.4.48.v20220622/jetty-client-9.4.48.v20220622.jar:/home/vscode/.m2/repository/org/eclipse/jetty/websocket/websocket-servlet/9.4.48.v20220622/websocket-servlet-9.4.48.v20220622.jar:/home/vscode/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.4.48.v20220622/websocket-api-9.4.48.v20220622.jar:/home/vscode/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/vscode/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/vscode"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/usr/local/sdkman/candidates/java/8.0.352-tem/jre"/>
+    <property name="basedir" value="/workspaces/ambar/OneDrive/Escritorio/Semestral-DevContainer/prysemestral"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/workspaces/ambar/OneDrive/Escritorio/Semestral-DevContainer/prysemestral/target/surefire/surefirebooter6660314663909425477.jar"/>
+    <property name="sun.boot.class.path" value="/usr/local/sdkman/candidates/java/8.0.352-tem/jre/lib/resources.jar:/usr/local/sdkman/candidates/java/8.0.352-tem/jre/lib/rt.jar:/usr/local/sdkman/candidates/java/8.0.352-tem/jre/lib/sunrsasign.jar:/usr/local/sdkman/candidates/java/8.0.352-tem/jre/lib/jsse.jar:/usr/local/sdkman/candidates/java/8.0.352-tem/jre/lib/jce.jar:/usr/local/sdkman/candidates/java/8.0.352-tem/jre/lib/charsets.jar:/usr/local/sdkman/candidates/java/8.0.352-tem/jre/lib/jfr.jar:/usr/local/sdkman/candidates/java/8.0.352-tem/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_352-b08"/>
+    <property name="user.name" value="vscode"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.10.16.3-microsoft-standard-WSL2"/>
+    <property name="java.endorsed.dirs" value="/usr/local/sdkman/candidates/java/8.0.352-tem/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/vscode/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="1.8.0_352"/>
+    <property name="user.dir" value="/workspaces/ambar/OneDrive/Escritorio/Semestral-DevContainer/prysemestral"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Temurin"/>
+    <property name="java.vm.version" value="25.352-b08"/>
+    <property name="java.specification.maintenance.version" value="4"/>
+    <property name="java.ext.dirs" value="/usr/local/sdkman/candidates/java/8.0.352-tem/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="shouldAnswerWithTrue" classname="com.isaquinn.AppTest" time="0.016"/>
+</testsuite>
