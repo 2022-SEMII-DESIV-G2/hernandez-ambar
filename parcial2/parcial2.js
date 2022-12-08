@@ -53,6 +53,7 @@
         document.querySelector(`.item${i}-level${ielem}`).style.background='#e3d0d8';    
         //console.log(`this is the index of largest element ${ielem} and this is the element ${pyramid[i][max]}`)          
     }
+    console.log(pyramid);
     output2 += `<p> Maxpath is: ${Maxpath} </p><br>`
     document.getElementById('sum').innerHTML=output2
     //return Maxpath;  
